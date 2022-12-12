@@ -45,6 +45,7 @@ for (let course of courses) {
 }
 console.log(courses10Old);
 
+/* On put créer un tableau d'objets avec map, mais attention il faut utiliser return à l'intérieur d'accolades */
 const coursesNew = courses.map((course) => {
   return { nom: course.produit, total: course.prix * course.quantite };
 });
